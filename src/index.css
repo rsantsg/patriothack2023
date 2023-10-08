@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.react-flow__node-selectorNode {
+  font-size: 12px;
+  background: #eee;
+  border: 1px solid #555;
+  position: relative; /* Add this to establish a stacking context */
+  border-radius: 5px;
+  text-align: center;
+}
+.node{
+  height: 80px;
+  width: 80px;
+  position: relative; /* Add this to establish a stacking context */
+  border: solid;
+  border-radius: 10%;
+}
+.pop {
+  /* Increase the height and width to make the pop-up bigger than the node */
+  height: 200px; /* Adjust the height as needed */
+  width: 200px;  /* Adjust the width as needed */
+  border: solid;
+  border-radius: 10%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  position: absolute;
+  background-color: #d9bdf0;
+  overflow: hidden; 
+}
+.description {
+  font-size: 7px; /* Adjust the font size as needed */
+  line-height: 1.; /* Adjust the line height for readability */
+  padding: 5px; /* Add padding to create space around the text */
+  overflow: hidden; /* Hide the overflowed text */
+  white-space: wrap; /* Prevent text from wrapping to the next line */
+  text-overflow: ellipsis; 
+  max-height: 120px; 
+  pointer-events: auto;
+}
+.classTittle{
+  font-size: 10px;
+}
