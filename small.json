@@ -1,0 +1,211 @@
+[
+    {
+        "id": "cs110",
+        "course": "Essentials of Computer Science",
+        "prerequisite": [[]],
+        "alternitive": [[]],
+        "description": "Offers a broad overview of computer science designed to provide computer science majors with an introduction to their discipline. Fundamental computing concepts such as number representation, programming environments, communication tools, and basic network security measures are covered. Privacy and ethical use of computing are also discussed along with guest lectures to sample current computer science research. Note: All computer science majors are required to take this course within their first year as a computer science major. Offered by Computer Science. Limited to two attempts.",
+        "credits": 3
+    },
+    {
+        "id": "cs112",
+        "course": "Introduction to Computer Programming",
+        "prerequisite": [["1", "Math104"], ["1", "Math104T"], ["1", "Math105"], ["1", "Math105T"], ["1", "Math113"], ["1", "Math115"], ["1", "Math123"]],
+        "alternitive": [["1", "CS108"],["1", "CS109"]],
+        "description": "Rigorous introduction to problem solving through development of computer programs. Focuses on identifying algorithmic patterns in problems, describing problem solutions in high-level pseudocode, then implementing in a procedural programming language. Basic programming concepts are covered in detail including expressions, control structures, simple data types, and input/output. Program testing and debugging are discussed to verify that problems are solved correctly. Note: The department will drop students who fail to meet the prerequisites. Lectures and Labs are offered in groups. Students MUST register for a lecture and a lab from the same group. Offered by Computer Science. Limited to two attempts.",
+        "credits": 4
+    },
+    {
+        "id": "cs211",
+        "course": "Object-Oriented Programming",
+        "prerequisite": [["1","cs112"], ["1","cs109"]],
+        "alternitive": [[]],
+        "description": "Thorough treatment of programming according to object-oriented principles. Introduces classes, interfaces, inheritance, polymorphism, and single dispatch as means to decompose problems. Covers intermediate programming techniques including error handling through exceptions, arrangement of source code into packages, and simple data structures. Intermediate debugging techniques and unit testing are covered. Note: Lectures and labs are offered in groups. Students MUST register for a lecture and a lab from the same group. Offered by Computer Science. Limited to two attempts.",
+        "credits": 3
+    },
+    {
+        "id": "cs262",
+        "course": "Introduction to Low-Level Programming",
+        "prerequisite": [["1","cs110"], ["1", "cs101"], ["2","cs211"], ["2", "cs222"]],
+        "alternitive": [[]],
+        "description": "Introduction to the language C, as well as operating system concepts, in UNIX, to prepare students for topics in systems programming. Offered by Computer Science. Limited to two attempts.",
+        "credits": 3
+    },
+    {
+        "id": "cs310",
+        "course": "Data Structures",
+        "prerequisite": [["1", "cs211"], ["2", "math125"], ["2","math113"],["3","math124"], ["3", "math115"]],
+        "alternitive": [[]],
+        "description": "Focuses on object-oriented programming with an emphasis on tools and techniques for developing moderate to large programs. Topics include use and implementation of linear and nonlinear data structures and the design and analysis of elementary algorithms. Offered by Computer Science. Limited to two attempts.",
+        "credits": 3
+    },
+    {
+        "id": "cs321",
+        "course": "Software Engineering",
+        "prerequisite": [["1","cs310"],["2","engh302"]],
+        "alternitive": [[]],
+        "description": "An introduction to concepts, methods, and tools for the creation of large-scale software systems. Methods, tools, notations, and validation techniques to analyze, specify, prototype, and maintain software requirements. Introduction to object-oriented requirements modeling, including use of case modeling, static modeling, and dynamic modeling using the Unified Modeling Language (UML) notation. Concepts and methods for the design of large-scale software systems. Fundamental design concepts and design notations are introduced. A study of object-oriented analysis and design modeling using the UML notation. Students participate in a group project on software requirements, specification, and object-oriented software design. Offered by Computer Science. Limited to two attempts.",
+        "credits": 3
+    },
+    {
+        "id": "cs330",
+        "course": "Formal Methods and Models",
+        "prerequisite": [["1","cs211"],["2","math125"]],
+        "alternitive": [[]],
+        "description": "Abstract concepts that underlie much advanced work in computer science, with major emphasis on formal languages, models of computation, logic, and proof strategies. Offered by Computer Science. Limited to two attempts.",
+        "credits": 3
+    },
+    {
+        "id": "cs367",
+        "course": "Computer Systems and Programming",
+        "prerequisite": [["1","cs262"],["1","cs222"],["2", "math125"],["3","cs110"]],
+        "alternitive": [[]],
+        "description": "Introduces students to computer systems from a programmer's perspective. Topics include data representation, assembly and machine-level representation of high-level language programs, the memory hierarchy, linking, exceptions, interrupts, processes and signals, virtual memory, and system-level I/O. Foundation for courses on compilers; networks; operating systems; and computer architecture, where a deeper understanding of systems-level issues is required. Offered by Computer Science. Limited to two attempts.",
+        "credits": 4
+    },
+    {
+        "id": "cs471",
+        "course": "Operating Systems",
+        "prerequisite": [["1","cs310"],["2","cs367"]],
+        "alternitive": [[]],
+        "description": "Issues in multiprogramming. Covers concurrent processes and synchronization mechanisms; processor scheduling; memory, file, I/O, and deadlock management; performance of operating systems; and projects dealing with synchronization in multiprogrammed OS and virtual memory management. Offered by Computer Science. Limited to two attempts.",
+        "credits": 3
+    },
+    {
+        "id": "cs483",
+        "course": "Analysis of Algorithms",
+        "prerequisite": [["1", "cs310"],["2","cs330"],["3","math125"]],
+        "alternitive": [[]],
+        "description": "Analyzes computational resources for important problem types by alternative algorithms and their associated data structures, using mathematically rigorous techniques. Specific algorithms analyzed and improved. Offered by Computer Science. Limited to two attempts.",
+        "credits": 3
+    },
+    {
+        "id": "cs455",
+        "course": "Computer Communications and Networking",
+        "prerequisite": [["1","cs310"],["2","cs367"],["3","stat344"]],
+        "alternitive": [[]],
+        "description": "Data communications and networking protocols, with study organized to follow layers of Internet Protocol Suite (TCP/IP family of protocols). Topics include role of various media and software components, local and wide area network protocols, network performance, and emerging advanced commercial technologies. Offered by Computer Science. Limited to two attempts.",
+        "credits": 3
+    },
+    {
+        "id": "cs450",
+        "course": "Database Concepts",
+        "prerequisite": [["1","cs310"],["2","cs330"]],
+        "alternitive": [[]],
+        "description": "Covers basics to intermediate knowledge for the design, implementation, and use of relational database systems. Topics include the Entity-Relationship (ER) and Entity-Enhanced Relationship (EER) models for database design, Relational Algebra (RA), Structured Query Language (SQL), SQL programming techniques, functional dependencies and normalization, object and object-relational databases, and security. Students will practice to design, develop, and implement a relational ORACLE database and use the database for queries, transaction processing, and report generation. Offered by Computer Science. Limited to two attempts.",
+        "credits": 3
+    },
+    {
+        "id": "cs463",
+        "course": "Comparative Programming Languages",
+        "prerequisite": [["1","cs310"],["2","cs330"],["3","cs367"]],
+        "alternitive": [[]],
+        "description": "Key programming mechanisms described independently of particular machines or languages, including control, binding, procedural abstraction, types, and concurrency. Includes basic programming competence in several different types of programming languages, including a language that provides concurrency. Notes: Students who have taken CS 363 may not receive credit for CS 463. Offered by Computer Science. Limited to two attempts.",
+        "credits": 3
+    },
+    {
+        "id": "cs477",
+        "course": "Mobile Application Development",
+        "prerequisite": [["1","cs310"],["2","cs367"]],
+        "alternitive": [[]],
+        "description": "This project based course will teach fundamental principles of software development for the mobile device environment, emphasizing the application of numerous academic concepts and the new design and programming paradigms that stem from the use of mobile devices. Topics include user interfaces, event-based programming, interprocess communications, networking, mobile-specific capabilities and performance in a resource restricted environment. Offered by Computer Science. Limited to two attempts.",
+        "credits": 3
+    },
+    {
+        "id": "math113",
+        "course": "Analytic Geometry and Calculus I",
+        "prerequisite": [["1","math105"]],
+        "alternitive": [["1","math123"],["2","math124"]],
+        "description": "Functions, limits, the derivative, maximum and minimum problems, the integral, and transcendental functions. Notes: credit for both Math 108 and Math 113 will not be given. Offered by Mathematics. Limited to three attempts. Equivalent to MATH 115, MATH 124.",
+        "credits": 4
+    },
+    {
+        "id": "math114",
+        "course": "Analytic Geometry and Calculus II",
+        "prerequisite": [["1","math113"], ["2-1","math123"],["2-2","math124"],["2-2", "math115"]],
+        "alternitive": [[]],
+        "description": "Methods of integration, conic sections, parametric equations, infinite series, and power series. Offered by Mathematics. Limited to three attempts. Equivalent to MATH 116.",
+        "credits": 4
+    },
+    {
+        "id": "math125",
+        "course": "Discrete Mathematics I",
+        "prerequisite": [["1","math105"],["1","math108"],["1","math113"],["1","math115"],["1","math123"]],
+        "alternitive": [[]],
+        "description": "Introduces ideas of discrete mathematics and combinatorial proof techniques including mathematical induction, sets, graphs, trees, recursion, and enumeration. Offered by Mathematics. Limited to three attempts.",
+        "credits": 3
+    },
+    {
+        "id": "math203",
+        "course": "Linear Algebra",
+        "prerequisite": [["1","math114"],["1","math116"]],
+        "alternitive": [[]],
+        "description": "Systems of linear equations, linear independence, linear transformations, inverse of a matrix, determinants, vector spaces, eigenvalues, eigenvectors, and orthogonalization. Offered by Mathematics. Limited to three attempts.",
+        "credits": 3
+    },
+    {
+        "id": "math213",
+        "course": "Analytic Geometry and Calculus III",
+        "prerequisite": [["1","math114"],["1","math116"]],
+        "alternitive": [[]],
+        "description": "Partial differentiation, multiple integrals, line and surface integrals, and three-dimensional analytic geometry. Offered by Mathematics. Limited to three attempts. Equivalent to MATH 215.",
+        "credits": 3
+    },
+    {
+        "id": "stat344",
+        "course": "Probability and Statistics for Engineers and Scientists I",
+        "prerequisite": [["1","math114"],["1","math116"]],
+        "alternitive": [[]],
+        "description": "Introduction to probability and statistics with applications to computer science, engineering, operations research, and information technology. Basic concepts of probability, random variables and expectation, Bayes rule, bivariate distributions, sums of independent random variables, correlation and least squares estimation, central limit theorem, sampling distributions, confidence interval construction, and hypothesis testing for a single sample and two samples. Offered by Statistics. Limited to two attempts.",
+        "credits": 3
+    },
+    {
+        "id": "engh388",
+        "course": "Professional and Technical Writing",
+        "prerequisite": [[]],
+        "alternitive": [[]],
+        "description": "Intensive study and practice in various forms of professional and technical writing, including proposals, reports, instructions, news releases, white papers, and correspondence. Emphasizes writing for variety of audiences, both lay and informed, and writing within various professional and organizational contexts. Offered by English. Limited to three attempts.",
+        "credits": 3
+    },
+    {
+        "id": "ece301",
+        "course": "Digital Electronics",
+        "prerequisite": [["1","math125"],["1","math114"],["1","it102"],["1","math116"]],
+        "alternitive": [["1","ece231"],["2","ece232"]],
+        "description": "Introduces digital systems, circuits, and computers. Topics include binary systems and codes, digital logic gates and circuits, microelectronics and integrated circuits, coding and multiplexing, multivibrators, shift registers, counters, A/D converters, and elementary computer architecture. Notes: Not intended for those majoring in electrical or computer engineering. Offered by Electrical & Comp. Engineering. Limited to two attempts. Equivalent to CYSE 301.",
+        "credits": 3
+    },
+    {
+        "id": "phys160",
+        "course": "University Physics ",
+        "prerequisite": [["1","math114"],["1","math116"]],
+        "alternitive": [[]],
+        "description": "First semester of three-semester, calculus-based introductory physics sequence, designed primarily for science and engineering majors. Mechanics. Offered by Physics & Astronomy. Limited to three attempts.",
+        "credits": 4
+    },
+    {
+        "id": "phys260",
+        "course": "University Physics II",
+        "prerequisite": [["1","phys160"],["2","math213"],["2","math215"]],
+        "alternitive": [[]],
+        "description": "Waves, electricity, and magnetism. Offered by Physics & Astronomy. Limited to three attempts. Equivalent to PHYS 270.",
+        "credits": 4
+    },
+    {
+        "id": "engh100",
+        "course": "Composition for Multilingual Writers",
+        "prerequisite": [[]],
+        "alternitive": [["1","engh101"]],
+        "description": "Provides student writers with the skills and mindsets needed to eﬀectively respond to a range of academic and public writing situations with a special focus on the role of language in written communication. Multilingual students—students who are ﬂuent in English and/or students for whom English is an additional language—develop rhetorical reading and writing strategies that attend to the linguistic features and moves enacted in a range of non-ﬁction genres. Students learn to: engage in a process of discovery and consider diverse perspectives before making a judgment, taking a stance, or proposing a solution; locate, evaluate, and synthesize source material to discover and answer complex questions; and reﬂect on their linguistic choices and research and writing processes. Note: Students must attain a minimum grade of C to fulfill degree requirements. Offered by English. Limited to three attempts. Equivalent to ENGH 101, ENGH 122.",
+        "credits": 3
+    },
+    {
+        "id": "engh302",
+        "course": "Advanced Composition",
+        "prerequisite": [["1","engh100"]],
+        "alternitive": [[]],
+        "description": "Intensive practice in writing and analyzing expository forms such as essay, article, proposal, and technical or scientific reports with emphasis on research related to student's major field. Notes: Students must attain minimum grade of C to fulfill degree requirements. Schedule of Classes designates particular sections of ENGH 302 in business, humanities, natural sciences and technology, and social sciences. Offered by English. Limited to three attempts.",
+        "credits": 3
+    }
+
+]
